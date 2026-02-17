@@ -1,0 +1,73 @@
+/* Contenedor general del formulario */
+.FondoImagen {
+    background: url('ruta/de/tu/imagen.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px 0;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+/* Formulario */
+.formulario {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 1200px; /* Ajusta el ancho máximo */
+    margin: 0 auto;
+}
+
+/* Inputs y selects */
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="file"],
+.formulario select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Labels */
+.formulario label {
+    font-weight: bold;
+}
+
+/* Submit */
+.formulario input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"].disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+/* Preguntas abiertas y radio */
+.preguntas-abiertas-solicitud {
+    margin-bottom: 15px;
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+/* Responsive: varios campos en una línea en pantallas grandes */
+@media (min-width: 992px) {
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .form-row > .form-group {
+        flex: 1; /* Cada grupo ocupa igual espacio */
+        min-width: 200px;
+    }
+}

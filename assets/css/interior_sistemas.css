@@ -1,0 +1,78 @@
+.icon-logo {
+    font-size: 20px;
+    border-radius: 50%;
+    font-family: FontAwesome;
+    height: 100%;
+    display: inline-block !important;
+}
+.icon-logo img{
+    max-height: 98%;
+    width: auto !important;
+    margin:0 !important;
+}
+.logo-app{
+    /*height: 100%;*/
+    /*width: 35% !important;*/
+    background: none !important;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: inline-block;
+}
+.icono-boton{
+    display: block;
+    line-height: 32px;
+    height: 32px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #212b4d;
+}
+.icono-boton:hover {
+    background-color: #212b4d;
+    color: #fff;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.deshabilitado-nota{
+    border: 0;
+    background-color: white !important;
+}
+
+.oculto{
+    display: none;
+}
+
+.liga-boton-icono{
+    display: block;
+    line-height: 32px;
+    height: 32px;
+    padding-left: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.liga-boton-icono:hover{
+    background-color: #ddd;
+    color: #fff;
+    text-decoration: none;
+}
+.liga-boton-icono .fa{
+    width: 32px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+.liga-boton-icono .fa:hover{
+    font-size: 28px;
+    vertical-align: -6px;
+}
+
+
+.background-green{
+    background-color: #aee8ae !important;
+}
+
+.background-blue{
+    background-color: #7ec9ee  !important;
+}
